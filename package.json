@@ -1,0 +1,26 @@
+{
+  "name": "im-hero",
+  "version": "1.0.0",
+  "description": "no thing to description ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vietcao66/backend01.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Cao Viet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vietcao66/backend01/issues"
+  },
+  "homepage": "https://github.com/vietcao66/backend01#readme",
+  "dependencies": {
+    "express": "4.21.2"
+  }
+}
