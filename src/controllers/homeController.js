@@ -1,4 +1,13 @@
-const get Homepage = (req, res) => {
-  res.render('Hello World vs Hoi Dan It & nodemon', { title: 'Home Page' });
-}
-module.exports = { getHomepage };
+const getHomepage = (req, res) => {
+  // Add your homepage logic here
+  res.render("home.ejs");
+};
+
+const getAbc = (req, res) => {
+  res.render("sample.ejs");
+};
+
+module.exports = {
+  getHomepage,
+  getAbc,
+};
